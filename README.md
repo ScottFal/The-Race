@@ -5,7 +5,7 @@
     -   Instant updates
     -   LP tracker
     -   Daily LP tracker
-    -   Recent games
+    -   5 Recent games with KDA and damage stats
     -   Win/loss streak
     -   Leaderboard position tracker
     -   Daily leaderboard position tracker
