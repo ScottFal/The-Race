@@ -42,7 +42,7 @@ Empyrean is licensed under the <a href="https://creativecommons.org/licenses/by-
 
 ## Errors?
 
--   Make an [issue](https://github.com/addi00000/empyrean/issues)
+-   Make an [issue](https://github.com/ScottFal/The-Race/issues)
 -   Message on Discord: sc_0001
 
 
