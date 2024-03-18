@@ -17,10 +17,10 @@
 -   Patch notes
     -   Tracks and posts official patch note releases
 -   Other
-    -   Add/Remove summoners from the list
+    -   Add/Remove summoners from any region from the list
     -   Display needed LP for grandmaster & challenger
     -   Crown holder leaderboard
-    -   If the summoner is master+, displays overall rank
+    -   If the summoner is master+, displays the overall rank
 
 
 
