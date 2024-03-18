@@ -1,4 +1,4 @@
-# Contribution to [Empyrean](https://github.com/ScottFal/The-Race)
+# Contribution to [The Race](https://github.com/ScottFal/The-Race)
 
 ## Feature Requests
 
