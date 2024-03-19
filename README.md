@@ -26,6 +26,7 @@
     -   Display needed LP for grandmaster & challenger
     -   Crown holder leaderboard
     -   If the summoner is master+, displays the server rank
+    -   Supports new champion releases
 
 
 
