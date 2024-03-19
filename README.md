@@ -1,7 +1,7 @@
 ![Image](/img/banner.png)
 
 <div align="center">
-    A League of legends discord bot live game tracker+
+    A League of Legends live game tracker+ discord bot
 </div>
 <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
 
