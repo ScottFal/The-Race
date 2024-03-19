@@ -22,7 +22,7 @@
 -   Patch notes
     -   Tracks and posts official patch note releases
 -   Other
-    -   Add/Remove summoners from any region from the list
+    -   Add/Remove summoners from any region
     -   Display needed LP for grandmaster & challenger
     -   Crown holder leaderboard
     -   If the summoner is master+, displays the overall rank
