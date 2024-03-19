@@ -4,7 +4,7 @@
 
 A feature request is a request for a new feature or an enhancement to an existing feature. 
 
-Ensure you do not create a duplicate feature request by searching through the [existing feature requests](https://github.com/ScottFal/The-Race/issues?q=is%3Aissue+label%3Aenhancement++%5BFEAT.%5D+)
+Ensure you do not create a duplicate feature request by searching through the [existing feature requests](https://github.com/ScottFal/The-Race/issues?q=is%3Aissue+label%3Aenhancement)
 
 Please give detailed information about the feature you are requesting in order for it to be best implemented and note that feature requests are not guaranteed to be implemented.
 
