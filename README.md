@@ -25,7 +25,7 @@
     -   Add/Remove summoners from any region
     -   Display needed LP for grandmaster & challenger
     -   Crown holder leaderboard
-    -   If the summoner is master+, displays the overall rank
+    -   If the summoner is master+, displays the server rank
 
 
 
