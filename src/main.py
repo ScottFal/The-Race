@@ -761,37 +761,43 @@ def fetchAllSummonerData(force, daily):
 
     if updated or force:
         allMatchesIds = []
-        highEloPlayers = None
-        sortedHighEloPlayers = []
+        highEloPlayersPlatforms = []
+        highEloPlayersData = {}
 
-        # high elo players
+        # Collect unique platforms of summoners in high elo
         for summoner in summoners:
             if summoner.tier in ["MASTER", "GRANDMASTER", "CHALLENGER"]:
-                mastersUrl = "https://euw1.api.riotgames.com/lol/league/v4/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-f42c18f5-4234-48aa-b354-c977e092238d"
-                grandMastersUrl = "https://euw1.api.riotgames.com/lol/league/v4/grandmasterleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-f42c18f5-4234-48aa-b354-c977e092238d"
-                challengerUrl = "https://euw1.api.riotgames.com/lol/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-f42c18f5-4234-48aa-b354-c977e092238d"
-                combinedHighEloPlayers = []
-                for url in [mastersUrl, grandMastersUrl, challengerUrl]:
-                    response = requests.get(url)
-                    if response.status_code == 200:
-                        players = response.json().get("entries", [])
-                        combinedHighEloPlayers.extend(players)
-                    else:
-                        print(f"Failed to fetch data from {url}. Status code:", response.status_code)
+                platform = summoner.platform
+                if platform not in highEloPlayersPlatforms:
+                    highEloPlayersPlatforms.append(platform)
 
-                sortedHighEloPlayers = sorted(combinedHighEloPlayers, key=lambda x: (-x["leaguePoints"], x["summonerName"]))
-                highEloPlayers = True
-                break
-            else:
-                highEloPlayers = False
+        # Fetch high elo player data for each unique platform
+        for platform in highEloPlayersPlatforms:
+            mastersUrl = f"https://{platform.lower()}.api.riotgames.com/lol/league/v4/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-f42c18f5-4234-48aa-b354-c977e092238d"
+            grandMastersUrl = f"https://{platform.lower()}.api.riotgames.com/lol/league/v4/grandmasterleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-f42c18f5-4234-48aa-b354-c977e092238d"
+            challengerUrl = f"https://{platform.lower()}.api.riotgames.com/lol/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-f42c18f5-4234-48aa-b354-c977e092238d"
 
-        if highEloPlayers:
-            for summoner in summoners:
-                if summoner.tier in ["MASTER", "GRANDMASTER", "CHALLENGER"]:
-                    for index, player in enumerate(sortedHighEloPlayers, start=1):
-                        if player["summonerId"] == summoner.id:
-                            summoner.rank = index
-                            break
+            combinedHighEloPlayers = []
+            for url in [mastersUrl, grandMastersUrl, challengerUrl]:
+                response = requests.get(url)
+                if response.status_code == 200:
+                    players = response.json().get("entries", [])
+                    combinedHighEloPlayers.extend(players)
+                else:
+                    print(f"Failed to fetch data from {url}. Status code:", response.status_code)
+
+            sortedHighEloPlayers = sorted(combinedHighEloPlayers, key=lambda x: (-x["leaguePoints"], -x["wins"]))
+
+            highEloPlayersData[platform] = sortedHighEloPlayers
+
+        # Assign ranks to summoners based on fetched data for their respective platforms
+        for summoner in summoners:
+            if summoner.tier in ["MASTER", "GRANDMASTER", "CHALLENGER"]:
+                platform = summoner.platform
+                for index, player in enumerate(highEloPlayersData[platform], start=1):
+                    if player["summonerId"] == summoner.id:
+                        summoner.rank = index
+                        break
 
         for summoner in summoners:
             # solo 420 flex 440
