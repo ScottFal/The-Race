@@ -1239,12 +1239,10 @@ if __name__ == "__main__":
             tagline = tagline.replace("#", "")
 
         summonerFullName = f"{name}#{tagline}"
-        summonerList = []
-        for summoner in jsonData['summoners']:
-            summonerList.append(summoner)
+        summonerList = [summoner.lower() for summoner in jsonData['summoners']]
 
         if summonerFullName.lower() in summonerList:
-            await inter.send(f'{name} is already added')
+            await inter.send(f'{summonerFullName} is already added')
 
         else:
             response = requests.get(

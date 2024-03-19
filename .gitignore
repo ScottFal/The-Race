@@ -1,6 +1,3 @@
 .idea/*
-/src/data.json
 /src/.env
-/src/Rank list.png
-/src/Daily rank list.png
-/src/imgs/Champ icons/Ahri.png
+/src/imgs/Champ icons/*
