@@ -1,5 +1,10 @@
 ![Image](/img/banner.png)
 
+<div align="center">
+    A League of legends discord bot live game tracker+
+</div>
+<hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+
 ## Features
 -   Live game tracker
     -   Instant updates
