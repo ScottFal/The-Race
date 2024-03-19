@@ -43,9 +43,16 @@
 
 ### Prerequisites
 -   [Python](https://www.python.org/downloads/release/python-3102/)
+-   RIOT API key, you have to request one from them, it's very easy to get one
+-   Discord bot token
 -   Preferably a system to run it 24/7 (Rasberry pi)
 
 ### Setup
+- install requirements.txt
+- Add your keys and config in a .env file and run main.py
+
+### About
+
 
 ## Contributing
 
