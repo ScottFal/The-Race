@@ -6,7 +6,7 @@
 <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
 
 ## Features
--   Live game tracker
+-   🚀 Live game tracker
     -   Instant updates
     -   LP tracker
     -   Daily LP tracker
@@ -14,12 +14,12 @@
     -   Win/loss streak
     -   Leaderboard position tracker
     -   Daily leaderboard position tracker
--   MVP
+-   👑 MVP
     -   Crown holder
     -   MVP banner for each game
     -   MVP breakdown for games
     -   Customizable MVP algorithm using z-score normalisation
--   Patch notes
+-   🧾 Patch notes
     -   Tracks and posts official patch note releases
 -   Other
     -   Add/Remove summoners from any region
