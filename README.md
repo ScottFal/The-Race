@@ -29,13 +29,44 @@
     -   Supports new champions and patch releases 
 ## Screenshots
 <div align="center">
+    <div align="center">
+    The bot will send an image like this when there is an update
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Rank_list1.png"></img>
+    <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    The bot will send an image like this when its time for the daily post
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Daily_Rank_list1.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    All the available commands
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_1.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    Example of /add being used
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_2.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    Example of /mvp being used
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_3.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    Example of /patch being used, the bot will automatically post this when new patch notes come out, but you can manually request it
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_4.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    Example of /chall being used
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_5.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    Example of /crown being used
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_6.png"></img>
 </div>
 
