@@ -11,7 +11,7 @@
     -   LP tracker
     -   Daily LP tracker
     -   5 Recent games with KDA and damage stats
-    -   Win/loss streak
+    -   Win/loss streak(3+)
     -   Leaderboard position tracker
     -   Daily leaderboard position tracker
 -   👑 MVP
