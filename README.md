@@ -1,7 +1,7 @@
 ![Image](/img/banner.png)
 
 <div align="center">
-    A League of Legends live game tracker+ discord bot
+    A League of Legends leaderboard & live game tracker+ discord bot
 </div>
 <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
 
@@ -29,8 +29,8 @@
     -   Supports new champions and patch releases 
 ## Screenshots
 <div align="center">
-    <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Rank_list.png"></img>
-    <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Daily_Rank_list.png"></img>
+    <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Rank_list1.png"></img>
+    <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Daily_Rank_list1.png"></img>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_1.png"></img>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_2.png"></img>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_3.png"></img>
@@ -43,9 +43,16 @@
 
 ### Prerequisites
 -   [Python](https://www.python.org/downloads/release/python-3102/)
+-   RIOT API key, you have to request one from them, it's very easy to get one
+-   Discord bot token
 -   Preferably a system to run it 24/7 (Rasberry pi)
 
 ### Setup
+- install requirements.txt
+- Add your keys and config in a .env file and run main.py
+
+### About
+
 
 ## Contributing
 
