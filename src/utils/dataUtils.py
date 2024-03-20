@@ -6,13 +6,11 @@ import os
 import numpy as np
 import time
 import requests
-from PIL import ImageFont
-from PIL import Image, ImageDraw
 from table2ascii import table2ascii as t2a, PresetStyle
 
-from src.utils.commonUtils import jsonFile, statisticsForMvp, Summoner, riotApKey, Rank
-from src.utils.drawUtils import generateImage
-from src.utils.jsonUtils import openJsonFile, writeToJsonFile
+from .commonUtils import jsonFile, statisticsForMvp, Summoner, riotApKey, Rank
+from .drawUtils import generateImage
+from .jsonUtils import openJsonFile, writeToJsonFile
 
 
 def calculateZScore(value, multiplier, mean, std):

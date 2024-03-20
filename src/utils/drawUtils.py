@@ -5,7 +5,7 @@ import requests
 from PIL import ImageFont
 from PIL import Image, ImageDraw
 
-from src.utils.commonUtils import version, Rank
+from .commonUtils import version, Rank
 
 
 def drawChampionImage(canvas, x, y, champ, win, remake, mvp):

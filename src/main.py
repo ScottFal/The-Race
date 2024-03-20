@@ -5,9 +5,9 @@ import pytz
 from disnake import ApplicationCommandInteraction
 from disnake.ext import commands, tasks
 import requests
-from src.utils.commonUtils import requestLimit, jsonFile, dailyPostTimer, discordChannel, platforms, regions, riotApKey, discordToken
-from src.utils.dataUtils import checkForNewPatchNotes, numberOfSummoners, update, crownData, mvpData
-from src.utils.jsonUtils import openJsonFile, writeToJsonFile
+from utils.commonUtils import requestLimit, jsonFile, dailyPostTimer, discordChannel, platforms, regions, riotApKey, discordToken
+from utils.dataUtils import checkForNewPatchNotes, numberOfSummoners, update, crownData, mvpData
+from utils.jsonUtils import openJsonFile, writeToJsonFile
 
 bot = commands.InteractionBot()
 
