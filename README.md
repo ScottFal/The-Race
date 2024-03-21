@@ -45,12 +45,12 @@
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_1.png"></img>
      <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
         <div align="center">
-    Example of /add being used
+    Example of /add
 </div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_2.png"></img>
      <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
         <div align="center">
-    Example of /mvp being used
+    Example of /mvp
 </div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_3.png"></img>
      <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
@@ -60,12 +60,12 @@
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_4.png"></img>
      <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
         <div align="center">
-    Example of /chall being used
+    Example of /chall
 </div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_5.png"></img>
      <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
         <div align="center">
-    Example of /crown being used
+    Example of /crown
 </div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_6.png"></img>
 </div>
