@@ -29,13 +29,44 @@
     -   Supports new champions and patch releases 
 ## Screenshots
 <div align="center">
+    <div align="center">
+    The bot will send an image like this when there is an update
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Rank_list1.png"></img>
+    <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    The bot will send an image like this when its time for the daily post
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Daily_Rank_list1.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    All the available commands
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_1.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    Example of /add
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_2.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    Example of /mvp
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_3.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    Example of /patch being used, the bot will automatically post this when new patch notes come out, but you can manually request it
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_4.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    Example of /chall
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_5.png"></img>
+     <hr style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;" noshade="" size="20" width="100%">
+        <div align="center">
+    Example of /crown
+</div>
     <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="img/Screenshot_6.png"></img>
 </div>
 
@@ -60,7 +91,7 @@ View the [contributing guidelines](CONTRIBUTING.md) for more information on how 
 
 ## License
 
-Empyrean is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-NC-SA 4.0 License</a>.
+The race is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-NC-SA 4.0 License</a>.
 
 ## Errors?
 

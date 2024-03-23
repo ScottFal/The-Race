@@ -1,4 +1,5 @@
 .idea/*
 /src/.env
 /src/data.json
-/src/imgs/Champ icons/*
+/src/Daily Rank list.png
+/src/Rank list.png
