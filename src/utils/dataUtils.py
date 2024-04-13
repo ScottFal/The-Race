@@ -498,7 +498,7 @@ def checkForNewPatchNotes(jsonFilePath, forceUpdate):
                 patchSoup = BeautifulSoup(patchResponse.content, "html.parser")
 
                 # Search for the image by filename
-                imageTags = patchSoup.find_all("img", src=lambda src: src and "highlights" in src.lower())
+                imageTags = patchSoup.find_all("img", src=lambda src: src and "highlight" in src.lower())
                 if imageTags:
                     # Assuming the first image found is the correct one
                     imageUrl = imageTags[0]["src"]
